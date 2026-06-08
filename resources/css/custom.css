@@ -1,0 +1,201 @@
+/* =========================
+   🌟 NEON TEXT
+========================= */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.02em;
+}
+
+nav a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    letter-spacing: 0.03em;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    letter-spacing: 0.06em;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
+}
+.text-neon {
+    color: #a855f7;
+    text-shadow:
+        0 0 5px rgba(168, 85, 247, 0.7),
+        0 0 15px rgba(168, 85, 247, 0.5),
+        0 0 30px rgba(168, 85, 247, 0.3);
+}
+
+/* =========================
+   ✨ NEON PULSE
+========================= */
+.neon-pulse {
+    animation: neonPulse 2.5s infinite;
+}
+
+@keyframes neonPulse {
+    0%, 100% {
+        text-shadow:
+            0 0 5px rgba(168, 85, 247, 0.6),
+            0 0 15px rgba(168, 85, 247, 0.4);
+    }
+    50% {
+        text-shadow:
+            0 0 10px rgba(168, 85, 247, 0.9),
+            0 0 25px rgba(168, 85, 247, 0.6),
+            0 0 40px rgba(168, 85, 247, 0.4);
+    }
+}
+
+/* =========================
+   🧭 NAVBAR
+========================= */
+nav {
+    transition: all 0.3s ease;
+}
+
+.nav-scroll {
+    background: rgba(0, 0, 0, 0.85) !important;
+    backdrop-filter: blur(12px);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+}
+
+nav a:hover {
+    text-shadow:
+        0 0 5px rgba(168, 85, 247, 0.8),
+        0 0 15px rgba(168, 85, 247, 0.6);
+}
+
+/* =========================
+   🪶 FLOAT LINKS NAV
+========================= */
+.float-link {
+    display: inline-block;
+    animation: floatUpDown 3s ease-in-out infinite;
+    font-weight: 500;
+}
+
+.float-link:nth-child(1) { animation-delay: 0s; }
+.float-link:nth-child(2) { animation-delay: 0.4s; }
+.float-link:nth-child(3) { animation-delay: 0.8s; }
+.float-link:nth-child(4) { animation-delay: 1.2s; }
+
+@keyframes floatUpDown {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-link:hover {
+    text-shadow:
+        0 0 5px rgba(168, 85, 247, 0.8),
+        0 0 15px rgba(168, 85, 247, 0.6),
+        0 0 25px rgba(168, 85, 247, 0.4);
+}
+
+/* =========================
+   🎬 FLOAT CARDS (PROJECTS)
+========================= */
+.float-card {
+    animation: floatCard 4s ease-in-out infinite;
+    will-change: transform;
+}
+
+.float-card:nth-child(2) { animation-delay: 0.4s; }
+.float-card:nth-child(3) { animation-delay: 0.8s; }
+.float-card:nth-child(4) { animation-delay: 1.2s; }
+
+@keyframes floatCard {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* =========================
+   🧩 SKILL CARDS
+========================= */
+.skill-card {
+    background: rgba(24, 24, 27, 0.85);
+    border: 1px solid rgba(168, 85, 247, 0.25);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #d8b4fe;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.25);
+    border-color: rgba(168, 85, 247, 0.6);
+}
+
+/* =========================
+   🌌 FLOATING BLOBS BACKGROUND
+========================= */
+
+.blob {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+
+    /* 🔥 più visibili */
+    opacity: 0.65;
+    filter: blur(55px);
+
+    /* animazione fluida */
+    animation: floatBlob 10s ease-in-out infinite;
+
+    /* assicurati che siano sotto il contenuto */
+    z-index: 0;
+
+    will-change: transform;
+}
+
+/* 🌸 VIOLA PRINCIPALE */
+.blob-1 {
+    background: rgba(168, 85, 247, 0.9);
+    top: 10%;
+    left: 15%;
+}
+
+/* 💚 VERDE NEON */
+.blob-2 {
+    background: rgba(34, 197, 94, 0.85);
+    bottom: 10%;
+    right: 20%;
+}
+
+/* 💜 VIOLA SCURO */
+.blob-3 {
+    background: rgba(124, 58, 237, 0.85);
+    top: 50%;
+    left: 60%;
+}
+
+/* 🌊 ANIMAZIONE PIÙ NATURALE */
+@keyframes floatBlob {
+    0% {
+        transform: translateY(0px) translateX(0px) scale(1);
+    }
+    25% {
+        transform: translateY(-20px) translateX(10px) scale(1.05);
+    }
+    50% {
+        transform: translateY(-35px) translateX(-10px) scale(1.1);
+    }
+    75% {
+        transform: translateY(-15px) translateX(5px) scale(1.05);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px) scale(1);
+    }
+}
