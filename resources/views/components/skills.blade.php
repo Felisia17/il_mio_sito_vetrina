@@ -2,14 +2,14 @@
 
 <section class="relative min-h-screen px-6 py-20 bg-black overflow-hidden">
 
-    <!-- 🌌 BACKGROUND BLOBS -->
+    
     <div class="absolute inset-0 z-0 pointer-events-none">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
         <div class="blob blob-3"></div>
     </div>
 
-    <!-- CONTENT -->
+   
     <div class="relative z-10">
 
       <div class="text-center mb-16">
@@ -26,7 +26,7 @@
 
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <!-- SKILL -->
+            
             <div class="skill-card group">
             <i class="devicon-html5-plain text-5xl text-purple-400"></i>
             <span >HTML</span>

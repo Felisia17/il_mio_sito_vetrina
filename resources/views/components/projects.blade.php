@@ -2,7 +2,7 @@
 
 <section class="min-h-screen px-6 py-20 bg-black overflow-hidden">
 
-    <!-- HEADER -->
+   
     <div class="text-center mb-16">
 
         <h1 class="text-5xl md:text-6xl font-black text-purple-500 neon-pulse tracking-tight">
@@ -15,13 +15,13 @@
 
     </div>
 
-    <!-- GRID -->
+   
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
 
-        <!-- CARD 1 -->
+        
         <div class="float-card w-full max-w-md bg-zinc-900 border border-purple-500/30 rounded-2xl overflow-hidden">
 
-            <!-- VIDEO -->
+            
             <video
                 class="w-full h-56 object-cover"
                 autoplay
@@ -32,7 +32,7 @@
                 <source src="{{ asset('storage/video/demoreaktor.mp4') }}" type="video/mp4">
             </video>
 
-            <!-- CONTENT -->
+           
             <div class="p-6">
 
                 <h2 class="text-xl font-bold text-purple-400">

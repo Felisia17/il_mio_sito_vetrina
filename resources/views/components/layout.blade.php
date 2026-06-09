@@ -14,10 +14,10 @@
 
 <body class="bg-black text-white">
 
-    <!-- NAVBAR -->
+    
     <x-navbar />
 
-    <!-- CONTENUTO -->
+    
     <main class="pt-24">
         {{ $slot }}
     </main>

@@ -2,17 +2,17 @@
 
 <section class="relative min-h-screen px-6 py-24 bg-black overflow-hidden">
 
-    <!-- 🌌 BACKGROUND BLOBS -->
+    
     <div class="absolute inset-0 z-0 pointer-events-none">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
         <div class="blob blob-3"></div>
     </div>
 
-    <!-- CONTENT -->
+    
     <div class="relative z-10 max-w-5xl mx-auto">
 
-        <!-- TITLE -->
+        
         <div class="text-center mb-16">
             <h1 class="text-6xl font-black text-purple-500 neon-pulse">
                 About Me
@@ -23,10 +23,10 @@
             </p>
         </div>
 
-        <!-- MAIN BOX -->
+        
         <div class="grid md:grid-cols-2 gap-12 items-center">
 
-            <!-- LEFT TEXT -->
+           
             <div class="space-y-6 text-gray-300 text-lg leading-relaxed">
 
                 <p>
@@ -51,7 +51,7 @@
 
             </div>
 
-            <!-- RIGHT CARD -->
+            
             <div class="skill-card text-center p-10">
 
                 <div class="text-5xl mb-6">💻</div>
@@ -71,7 +71,7 @@
 
         </div>
 
-        <!-- BOTTOM QUOTE -->
+        
         <div class="text-center mt-20">
             <p class="text-gray-500 italic">
                 “Creo interfacce che non sono solo funzionali, ma anche emozionali.”
@@ -79,7 +79,7 @@
         </div>
 
     </div>
-    <!-- 📩 CONTACT SECTION -->
+    
 <div class="mt-24 text-center">
 
     <h2 class="text-4xl font-black text-purple-500 neon-pulse mb-6">
@@ -109,7 +109,7 @@
         </div>
     </div>
 
-    <!-- SMALL NOTE -->
+    
     <p class="mt-10 text-sm text-gray-600 italic">
         Aperta a stage, junior position e collaborazioni.
     </p>

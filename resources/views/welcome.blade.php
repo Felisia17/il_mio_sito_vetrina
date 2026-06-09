@@ -20,7 +20,7 @@
     <!-- BORDER -->
     <div class="relative w-full h-full rounded-full p-2 bg-gradient-to-r from-purple-500 via-fuchsia-500 to-green-400">
 
-        <!-- INNER -->
+        <
         <div class="w-full h-full rounded-full overflow-hidden bg-black">
 
             <img src="{{ asset('images/profile.jpg') }}"
@@ -32,22 +32,22 @@
     </div>
 
 </div>
-        <!-- NAME -->
+        
         <h1 class="text-6xl md:text-7xl font-black text-purple-500 neon-pulse">
             Felisia
         </h1>
 
-        <!-- ROLE -->
+        
         <p class="mt-4 text-xl text-gray-300">
             Full Stack Web Developer
         </p>
 
-        <!-- DESCRIPTION -->
+        
         <p class="mt-6 text-gray-400 leading-relaxed">
             Creo interfacce moderne, performanti e curate nei dettagli usando Laravel, React e Tailwind CSS.
         </p>
 
-        <!-- CTA -->
+        
         <div class="mt-10 flex justify-center gap-6">
 
             <a href="{{ route('projects') }}"
@@ -66,7 +66,7 @@
 
 </section>
 
-<!-- 🔥 MINI SECTION: SKILL PREVIEW -->
+
 <section class="bg-black px-6 py-20">
 
     <h2 class="text-center text-3xl font-bold text-purple-400 mb-12">

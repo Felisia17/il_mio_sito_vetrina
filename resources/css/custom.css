@@ -1,6 +1,4 @@
-/* =========================
-   🌟 NEON TEXT
-========================= */
+/* testo e body */
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -30,9 +28,7 @@ nav a:hover {
         0 0 30px rgba(168, 85, 247, 0.3);
 }
 
-/* =========================
-   ✨ NEON PULSE
-========================= */
+/* neon */
 .neon-pulse {
     animation: neonPulse 2.5s infinite;
 }
@@ -51,9 +47,7 @@ nav a:hover {
     }
 }
 
-/* =========================
-   🧭 NAVBAR
-========================= */
+/* nav */
 nav {
     transition: all 0.3s ease;
 }
@@ -72,9 +66,7 @@ nav a:hover {
         0 0 15px rgba(168, 85, 247, 0.6);
 }
 
-/* =========================
-   🪶 FLOAT LINKS NAV
-========================= */
+/* link */
 .float-link {
     display: inline-block;
     animation: floatUpDown 3s ease-in-out infinite;
@@ -99,9 +91,6 @@ nav a:hover {
         0 0 25px rgba(168, 85, 247, 0.4);
 }
 
-/* =========================
-   🎬 FLOAT CARDS (PROJECTS)
-========================= */
 .float-card {
     animation: floatCard 4s ease-in-out infinite;
     will-change: transform;
@@ -117,9 +106,7 @@ nav a:hover {
     100% { transform: translateY(0px); }
 }
 
-/* =========================
-   🧩 SKILL CARDS
-========================= */
+
 .skill-card {
     background: rgba(24, 24, 27, 0.85);
     border: 1px solid rgba(168, 85, 247, 0.25);
@@ -137,9 +124,6 @@ nav a:hover {
     border-color: rgba(168, 85, 247, 0.6);
 }
 
-/* =========================
-   🌌 FLOATING BLOBS BACKGROUND
-========================= */
 
 .blob {
     position: absolute;
@@ -147,41 +131,42 @@ nav a:hover {
     height: 280px;
     border-radius: 50%;
 
-    /* 🔥 più visibili */
+
     opacity: 0.65;
     filter: blur(55px);
 
     /* animazione fluida */
     animation: floatBlob 10s ease-in-out infinite;
 
-    /* assicurati che siano sotto il contenuto */
+   
     z-index: 0;
 
     will-change: transform;
 }
 
-/* 🌸 VIOLA PRINCIPALE */
+/* sfondo schermo */
+
 .blob-1 {
     background: rgba(168, 85, 247, 0.9);
     top: 10%;
     left: 15%;
 }
 
-/* 💚 VERDE NEON */
+
 .blob-2 {
     background: rgba(34, 197, 94, 0.85);
     bottom: 10%;
     right: 20%;
 }
 
-/* 💜 VIOLA SCURO */
+
 .blob-3 {
     background: rgba(124, 58, 237, 0.85);
     top: 50%;
     left: 60%;
 }
 
-/* 🌊 ANIMAZIONE PIÙ NATURALE */
+
 @keyframes floatBlob {
     0% {
         transform: translateY(0px) translateX(0px) scale(1);
