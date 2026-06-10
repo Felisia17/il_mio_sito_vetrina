@@ -2,25 +2,25 @@
 
 <section class="relative min-h-screen flex items-center justify-center bg-black overflow-hidden px-6">
 
-    <!-- 🌌 BLOBS BACKGROUND -->
+   
     <div class="absolute inset-0 z-0 pointer-events-none">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
         <div class="blob blob-3"></div>
     </div>
     
-    <!-- CONTENT -->
+   
     <div class="relative z-10 text-center max-w-3xl">
-    <!-- PROFILE PICTURE -->
+    
 <div class="relative mx-auto mb-10 w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
 
-    <!-- GLOW EFFECT -->
+    
     <div class="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-green-400 blur-3xl opacity-60 animate-pulse"></div>
 
-    <!-- BORDER -->
+    
     <div class="relative w-full h-full rounded-full p-2 bg-gradient-to-r from-purple-500 via-fuchsia-500 to-green-400">
 
-        <
+        
         <div class="w-full h-full rounded-full overflow-hidden bg-black">
 
             <img src="{{ asset('images/profile.jpg') }}"

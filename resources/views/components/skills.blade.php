@@ -79,7 +79,7 @@
 
              <div class="skill-card group">
             <i class="devicon-git-plain text-5xl text-purple-400"></i>
-            <span>Git Bash</span>
+            <span>Git</span>
             </div>
 
         </div>
